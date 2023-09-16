@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760B8C5F2AB5E4250060F03B /* stoy_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C5E2AB5E4250060F03B /* stoy_iosApp.swift */; };
+		760B8C612AB5E4250060F03B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C602AB5E4250060F03B /* ContentView.swift */; };
+		760B8C632AB5E4260060F03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760B8C622AB5E4260060F03B /* Assets.xcassets */; };
+		760B8C672AB5E4260060F03B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760B8C662AB5E4260060F03B /* Preview Assets.xcassets */; };
+		760B8C712AB5E4270060F03B /* stoy_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C702AB5E4270060F03B /* stoy_iosTests.swift */; };
+		760B8C7B2AB5E4270060F03B /* stoy_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C7A2AB5E4270060F03B /* stoy_iosUITests.swift */; };
+		760B8C7D2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C7C2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		760B8C6D2AB5E4270060F03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 760B8C532AB5E4250060F03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 760B8C5A2AB5E4250060F03B;
+			remoteInfo = "stoy-ios";
+		};
+		760B8C772AB5E4270060F03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 760B8C532AB5E4250060F03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 760B8C5A2AB5E4250060F03B;
+			remoteInfo = "stoy-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		760B8C5B2AB5E4250060F03B /* stoy-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stoy-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		760B8C5E2AB5E4250060F03B /* stoy_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoy_iosApp.swift; sourceTree = "<group>"; };
+		760B8C602AB5E4250060F03B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		760B8C622AB5E4260060F03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		760B8C642AB5E4260060F03B /* stoy_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stoy_ios.entitlements; sourceTree = "<group>"; };
+		760B8C662AB5E4260060F03B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		760B8C6C2AB5E4270060F03B /* stoy-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stoy-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		760B8C702AB5E4270060F03B /* stoy_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoy_iosTests.swift; sourceTree = "<group>"; };
+		760B8C762AB5E4270060F03B /* stoy-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stoy-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		760B8C7A2AB5E4270060F03B /* stoy_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoy_iosUITests.swift; sourceTree = "<group>"; };
+		760B8C7C2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoy_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		760B8C582AB5E4250060F03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760B8C692AB5E4270060F03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760B8C732AB5E4270060F03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760B8C522AB5E4250060F03B = {
+			isa = PBXGroup;
+			children = (
+				760B8C5D2AB5E4250060F03B /* stoy-ios */,
+				760B8C6F2AB5E4270060F03B /* stoy-iosTests */,
+				760B8C792AB5E4270060F03B /* stoy-iosUITests */,
+				760B8C5C2AB5E4250060F03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		760B8C5C2AB5E4250060F03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				760B8C5B2AB5E4250060F03B /* stoy-ios.app */,
+				760B8C6C2AB5E4270060F03B /* stoy-iosTests.xctest */,
+				760B8C762AB5E4270060F03B /* stoy-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760B8C5D2AB5E4250060F03B /* stoy-ios */ = {
+			isa = PBXGroup;
+			children = (
+				760B8C5E2AB5E4250060F03B /* stoy_iosApp.swift */,
+				760B8C602AB5E4250060F03B /* ContentView.swift */,
+				760B8C622AB5E4260060F03B /* Assets.xcassets */,
+				760B8C642AB5E4260060F03B /* stoy_ios.entitlements */,
+				760B8C652AB5E4260060F03B /* Preview Content */,
+			);
+			path = "stoy-ios";
+			sourceTree = "<group>";
+		};
+		760B8C652AB5E4260060F03B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				760B8C662AB5E4260060F03B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		760B8C6F2AB5E4270060F03B /* stoy-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				760B8C702AB5E4270060F03B /* stoy_iosTests.swift */,
+			);
+			path = "stoy-iosTests";
+			sourceTree = "<group>";
+		};
+		760B8C792AB5E4270060F03B /* stoy-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				760B8C7A2AB5E4270060F03B /* stoy_iosUITests.swift */,
+				760B8C7C2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift */,
+			);
+			path = "stoy-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		760B8C5A2AB5E4250060F03B /* stoy-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760B8C802AB5E4270060F03B /* Build configuration list for PBXNativeTarget "stoy-ios" */;
+			buildPhases = (
+				760B8C572AB5E4250060F03B /* Sources */,
+				760B8C582AB5E4250060F03B /* Frameworks */,
+				760B8C592AB5E4250060F03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "stoy-ios";
+			productName = "stoy-ios";
+			productReference = 760B8C5B2AB5E4250060F03B /* stoy-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		760B8C6B2AB5E4270060F03B /* stoy-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760B8C832AB5E4270060F03B /* Build configuration list for PBXNativeTarget "stoy-iosTests" */;
+			buildPhases = (
+				760B8C682AB5E4270060F03B /* Sources */,
+				760B8C692AB5E4270060F03B /* Frameworks */,
+				760B8C6A2AB5E4270060F03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				760B8C6E2AB5E4270060F03B /* PBXTargetDependency */,
+			);
+			name = "stoy-iosTests";
+			productName = "stoy-iosTests";
+			productReference = 760B8C6C2AB5E4270060F03B /* stoy-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		760B8C752AB5E4270060F03B /* stoy-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760B8C862AB5E4270060F03B /* Build configuration list for PBXNativeTarget "stoy-iosUITests" */;
+			buildPhases = (
+				760B8C722AB5E4270060F03B /* Sources */,
+				760B8C732AB5E4270060F03B /* Frameworks */,
+				760B8C742AB5E4270060F03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				760B8C782AB5E4270060F03B /* PBXTargetDependency */,
+			);
+			name = "stoy-iosUITests";
+			productName = "stoy-iosUITests";
+			productReference = 760B8C762AB5E4270060F03B /* stoy-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		760B8C532AB5E4250060F03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					760B8C5A2AB5E4250060F03B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					760B8C6B2AB5E4270060F03B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 760B8C5A2AB5E4250060F03B;
+					};
+					760B8C752AB5E4270060F03B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 760B8C5A2AB5E4250060F03B;
+					};
+				};
+			};
+			buildConfigurationList = 760B8C562AB5E4250060F03B /* Build configuration list for PBXProject "stoy-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 760B8C522AB5E4250060F03B;
+			productRefGroup = 760B8C5C2AB5E4250060F03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				760B8C5A2AB5E4250060F03B /* stoy-ios */,
+				760B8C6B2AB5E4270060F03B /* stoy-iosTests */,
+				760B8C752AB5E4270060F03B /* stoy-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		760B8C592AB5E4250060F03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760B8C672AB5E4260060F03B /* Preview Assets.xcassets in Resources */,
+				760B8C632AB5E4260060F03B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760B8C6A2AB5E4270060F03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760B8C742AB5E4270060F03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		760B8C572AB5E4250060F03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760B8C612AB5E4250060F03B /* ContentView.swift in Sources */,
+				760B8C5F2AB5E4250060F03B /* stoy_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760B8C682AB5E4270060F03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760B8C712AB5E4270060F03B /* stoy_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760B8C722AB5E4270060F03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760B8C7D2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift in Sources */,
+				760B8C7B2AB5E4270060F03B /* stoy_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		760B8C6E2AB5E4270060F03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 760B8C5A2AB5E4250060F03B /* stoy-ios */;
+			targetProxy = 760B8C6D2AB5E4270060F03B /* PBXContainerItemProxy */;
+		};
+		760B8C782AB5E4270060F03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 760B8C5A2AB5E4250060F03B /* stoy-ios */;
+			targetProxy = 760B8C772AB5E4270060F03B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		760B8C7E2AB5E4270060F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		760B8C7F2AB5E4270060F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		760B8C812AB5E4270060F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "stoy-ios/stoy_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stoy-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 3886DXKJ96;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.futurenize.stoy-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		760B8C822AB5E4270060F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "stoy-ios/stoy_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stoy-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 3886DXKJ96;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.futurenize.stoy-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		760B8C842AB5E4270060F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3886DXKJ96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.futurenize.stoy-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stoy-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stoy-ios";
+			};
+			name = Debug;
+		};
+		760B8C852AB5E4270060F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3886DXKJ96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.futurenize.stoy-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stoy-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stoy-ios";
+			};
+			name = Release;
+		};
+		760B8C872AB5E4270060F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3886DXKJ96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.futurenize.stoy-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "stoy-ios";
+			};
+			name = Debug;
+		};
+		760B8C882AB5E4270060F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3886DXKJ96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.futurenize.stoy-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "stoy-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		760B8C562AB5E4250060F03B /* Build configuration list for PBXProject "stoy-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760B8C7E2AB5E4270060F03B /* Debug */,
+				760B8C7F2AB5E4270060F03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760B8C802AB5E4270060F03B /* Build configuration list for PBXNativeTarget "stoy-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760B8C812AB5E4270060F03B /* Debug */,
+				760B8C822AB5E4270060F03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760B8C832AB5E4270060F03B /* Build configuration list for PBXNativeTarget "stoy-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760B8C842AB5E4270060F03B /* Debug */,
+				760B8C852AB5E4270060F03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760B8C862AB5E4270060F03B /* Build configuration list for PBXNativeTarget "stoy-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760B8C872AB5E4270060F03B /* Debug */,
+				760B8C882AB5E4270060F03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 760B8C532AB5E4250060F03B /* Project object */;
+}
