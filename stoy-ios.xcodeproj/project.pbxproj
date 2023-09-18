@@ -17,6 +17,7 @@
 		7654312F2AB6F96A007078C6 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 7654312E2AB6F96A007078C6 /* .env */; };
 		765431322AB822FD007078C6 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431312AB822FD007078C6 /* AppConfig.swift */; };
 		765431372AB84A5F007078C6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 765431362AB84A5F007078C6 /* .gitignore */; };
+		765431392AB85031007078C6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 765431382AB85031007078C6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7654312E2AB6F96A007078C6 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		765431312AB822FD007078C6 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		765431362AB84A5F007078C6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		765431382AB85031007078C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		760B8C522AB5E4250060F03B = {
 			isa = PBXGroup;
 			children = (
+				765431382AB85031007078C6 /* README.md */,
 				765431362AB84A5F007078C6 /* .gitignore */,
 				760B8C5D2AB5E4250060F03B /* stoy-ios */,
 				760B8C6F2AB5E4270060F03B /* stoy-iosTests */,
@@ -281,6 +284,7 @@
 			files = (
 				765431372AB84A5F007078C6 /* .gitignore in Resources */,
 				7654312F2AB6F96A007078C6 /* .env in Resources */,
+				765431392AB85031007078C6 /* README.md in Resources */,
 				760B8C672AB5E4260060F03B /* Preview Assets.xcassets in Resources */,
 				760B8C632AB5E4260060F03B /* Assets.xcassets in Resources */,
 			);
