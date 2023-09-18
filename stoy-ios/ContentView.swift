@@ -17,6 +17,10 @@ struct ContentView: View {
         }
         .padding()
     }
+    
+    init() {
+        AppConfig.setupEnv()
+    }
 }
 
 #Preview {
