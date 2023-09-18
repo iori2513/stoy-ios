@@ -18,6 +18,12 @@
 		765431322AB822FD007078C6 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431312AB822FD007078C6 /* AppConfig.swift */; };
 		765431372AB84A5F007078C6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 765431362AB84A5F007078C6 /* .gitignore */; };
 		765431392AB85031007078C6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 765431382AB85031007078C6 /* README.md */; };
+		7654313E2AB85659007078C6 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654313D2AB85659007078C6 /* LogInView.swift */; };
+		765431412AB8567C007078C6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431402AB8567C007078C6 /* SignUpView.swift */; };
+		765431432AB8569A007078C6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431422AB8569A007078C6 /* MainTabView.swift */; };
+		765431452AB85745007078C6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431442AB85745007078C6 /* UserService.swift */; };
+		765431472AB857A4007078C6 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431462AB857A4007078C6 /* LogInViewModel.swift */; };
+		765431492AB857BC007078C6 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431482AB857BC007078C6 /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		765431312AB822FD007078C6 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		765431362AB84A5F007078C6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		765431382AB85031007078C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7654313D2AB85659007078C6 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		765431402AB8567C007078C6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		765431422AB8569A007078C6 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		765431442AB85745007078C6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		765431462AB857A4007078C6 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		765431482AB857BC007078C6 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +117,13 @@
 		760B8C5D2AB5E4250060F03B /* stoy-ios */ = {
 			isa = PBXGroup;
 			children = (
+				7654314A2AB87A88007078C6 /* extensions */,
+				7654313A2AB85625007078C6 /* services */,
 				765431352AB8242B007078C6 /* viewModels */,
 				765431342AB82418007078C6 /* models */,
 				765431332AB8240D007078C6 /* views */,
 				765431302AB822D2007078C6 /* config */,
 				760B8C5E2AB5E4250060F03B /* stoy_iosApp.swift */,
-				760B8C602AB5E4250060F03B /* ContentView.swift */,
 				760B8C622AB5E4260060F03B /* Assets.xcassets */,
 				760B8C642AB5E4260060F03B /* stoy_ios.entitlements */,
 				760B8C652AB5E4260060F03B /* Preview Content */,
@@ -155,6 +168,9 @@
 		765431332AB8240D007078C6 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				7654313C2AB85640007078C6 /* auth */,
+				7654313B2AB85638007078C6 /* core */,
+				760B8C602AB5E4250060F03B /* ContentView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -169,8 +185,42 @@
 		765431352AB8242B007078C6 /* viewModels */ = {
 			isa = PBXGroup;
 			children = (
+				765431462AB857A4007078C6 /* LogInViewModel.swift */,
+				765431482AB857BC007078C6 /* SignUpViewModel.swift */,
 			);
 			path = viewModels;
+			sourceTree = "<group>";
+		};
+		7654313A2AB85625007078C6 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				765431442AB85745007078C6 /* UserService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		7654313B2AB85638007078C6 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				765431422AB8569A007078C6 /* MainTabView.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		7654313C2AB85640007078C6 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				7654313D2AB85659007078C6 /* LogInView.swift */,
+				765431402AB8567C007078C6 /* SignUpView.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		7654314A2AB87A88007078C6 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,9 +361,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765431452AB85745007078C6 /* UserService.swift in Sources */,
 				765431322AB822FD007078C6 /* AppConfig.swift in Sources */,
+				765431412AB8567C007078C6 /* SignUpView.swift in Sources */,
 				760B8C612AB5E4250060F03B /* ContentView.swift in Sources */,
+				765431492AB857BC007078C6 /* SignUpViewModel.swift in Sources */,
+				765431472AB857A4007078C6 /* LogInViewModel.swift in Sources */,
+				7654313E2AB85659007078C6 /* LogInView.swift in Sources */,
 				760B8C5F2AB5E4250060F03B /* stoy_iosApp.swift in Sources */,
+				765431432AB8569A007078C6 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
