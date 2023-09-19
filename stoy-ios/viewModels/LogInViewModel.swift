@@ -9,5 +9,6 @@ import Foundation
 import SwiftUI
 
 class LogInViewModel: ObservableObject {
-    
+    @Published var email: String = ""
+    @Published var password: String = ""
 }

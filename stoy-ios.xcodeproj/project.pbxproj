@@ -14,6 +14,7 @@
 		760B8C712AB5E4270060F03B /* stoy_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C702AB5E4270060F03B /* stoy_iosTests.swift */; };
 		760B8C7B2AB5E4270060F03B /* stoy_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C7A2AB5E4270060F03B /* stoy_iosUITests.swift */; };
 		760B8C7D2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C7C2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift */; };
+		764056BB2AB9B35900F9BE49 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764056BA2AB9B35900F9BE49 /* AuthenticationView.swift */; };
 		7654312F2AB6F96A007078C6 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 7654312E2AB6F96A007078C6 /* .env */; };
 		765431322AB822FD007078C6 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431312AB822FD007078C6 /* AppConfig.swift */; };
 		765431372AB84A5F007078C6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 765431362AB84A5F007078C6 /* .gitignore */; };
@@ -55,6 +56,7 @@
 		760B8C762AB5E4270060F03B /* stoy-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stoy-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		760B8C7A2AB5E4270060F03B /* stoy_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoy_iosUITests.swift; sourceTree = "<group>"; };
 		760B8C7C2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoy_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		764056BA2AB9B35900F9BE49 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		7654312E2AB6F96A007078C6 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		765431312AB822FD007078C6 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		765431362AB84A5F007078C6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			children = (
 				7654313D2AB85659007078C6 /* LogInView.swift */,
 				765431402AB8567C007078C6 /* SignUpView.swift */,
+				764056BA2AB9B35900F9BE49 /* AuthenticationView.swift */,
 			);
 			path = auth;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				765431322AB822FD007078C6 /* AppConfig.swift in Sources */,
 				765431412AB8567C007078C6 /* SignUpView.swift in Sources */,
 				760B8C612AB5E4250060F03B /* ContentView.swift in Sources */,
+				764056BB2AB9B35900F9BE49 /* AuthenticationView.swift in Sources */,
 				765431492AB857BC007078C6 /* SignUpViewModel.swift in Sources */,
 				765431472AB857A4007078C6 /* LogInViewModel.swift in Sources */,
 				7654313E2AB85659007078C6 /* LogInView.swift in Sources */,
