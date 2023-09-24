@@ -43,15 +43,15 @@ struct SignUpView: View {
         Spacer()
             .frame(height: 30)
         
-        Button(action: {}, label: {
+        Button(action: {Task {  await viewModel.register() }}, label: {
             Text("OK")
                 .frame(width: 230, height: 40)
                 .background(Color.blue)
                 .foregroundColor(.white)
                 .clipShape(Capsule())
         })
-            
-    
+        
+        
     }
 }
 

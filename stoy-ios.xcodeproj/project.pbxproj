@@ -16,6 +16,11 @@
 		760B8C7D2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B8C7C2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift */; };
 		764056BB2AB9B35900F9BE49 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764056BA2AB9B35900F9BE49 /* AuthenticationView.swift */; };
 		764056BD2AB9B6CD00F9BE49 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764056BC2AB9B6CD00F9BE49 /* AuthenticationViewModel.swift */; };
+		764056C02AB9CB7A00F9BE49 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 764056BF2AB9CB7A00F9BE49 /* Alamofire */; };
+		764056C22AB9CE2D00F9BE49 /* ApiAuthRegisterParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764056C12AB9CE2D00F9BE49 /* ApiAuthRegisterParam.swift */; };
+		764056C52AB9D43F00F9BE49 /* UtilGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764056C42AB9D43F00F9BE49 /* UtilGeneral.swift */; };
+		764056C72AB9D5E700F9BE49 /* ApiAuthRegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764056C62AB9D5E700F9BE49 /* ApiAuthRegisterResponse.swift */; };
+		764056C92ABA04A600F9BE49 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764056C82ABA04A600F9BE49 /* ApiResponse.swift */; };
 		7654312F2AB6F96A007078C6 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 7654312E2AB6F96A007078C6 /* .env */; };
 		765431322AB822FD007078C6 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431312AB822FD007078C6 /* AppConfig.swift */; };
 		765431372AB84A5F007078C6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 765431362AB84A5F007078C6 /* .gitignore */; };
@@ -59,6 +64,10 @@
 		760B8C7C2AB5E4270060F03B /* stoy_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoy_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		764056BA2AB9B35900F9BE49 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		764056BC2AB9B6CD00F9BE49 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		764056C12AB9CE2D00F9BE49 /* ApiAuthRegisterParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAuthRegisterParam.swift; sourceTree = "<group>"; };
+		764056C42AB9D43F00F9BE49 /* UtilGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilGeneral.swift; sourceTree = "<group>"; };
+		764056C62AB9D5E700F9BE49 /* ApiAuthRegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAuthRegisterResponse.swift; sourceTree = "<group>"; };
+		764056C82ABA04A600F9BE49 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		7654312E2AB6F96A007078C6 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		765431312AB822FD007078C6 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		765431362AB84A5F007078C6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -76,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764056C02AB9CB7A00F9BE49 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +131,8 @@
 		760B8C5D2AB5E4250060F03B /* stoy-ios */ = {
 			isa = PBXGroup;
 			children = (
+				764056CA2ABA060300F9BE49 /* protocols */,
+				764056C32AB9D17300F9BE49 /* utils */,
 				7654314A2AB87A88007078C6 /* extensions */,
 				7654313A2AB85625007078C6 /* services */,
 				765431352AB8242B007078C6 /* viewModels */,
@@ -160,6 +172,22 @@
 			path = "stoy-iosUITests";
 			sourceTree = "<group>";
 		};
+		764056C32AB9D17300F9BE49 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				764056C42AB9D43F00F9BE49 /* UtilGeneral.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		764056CA2ABA060300F9BE49 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				764056C82ABA04A600F9BE49 /* ApiResponse.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
 		765431302AB822D2007078C6 /* config */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +210,8 @@
 		765431342AB82418007078C6 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				764056C12AB9CE2D00F9BE49 /* ApiAuthRegisterParam.swift */,
+				764056C62AB9D5E700F9BE49 /* ApiAuthRegisterResponse.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -246,6 +276,7 @@
 			);
 			name = "stoy-ios";
 			packageProductDependencies = (
+				764056BF2AB9CB7A00F9BE49 /* Alamofire */,
 			);
 			productName = "stoy-ios";
 			productReference = 760B8C5B2AB5E4250060F03B /* stoy-ios.app */;
@@ -321,6 +352,7 @@
 			mainGroup = 760B8C522AB5E4250060F03B;
 			packageReferences = (
 				7654312B2AB6F87B007078C6 /* XCRemoteSwiftPackageReference "DotEnv" */,
+				764056BE2AB9CB7A00F9BE49 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 760B8C5C2AB5E4250060F03B /* Products */;
 			projectDirPath = "";
@@ -367,11 +399,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764056C72AB9D5E700F9BE49 /* ApiAuthRegisterResponse.swift in Sources */,
+				764056C22AB9CE2D00F9BE49 /* ApiAuthRegisterParam.swift in Sources */,
 				765431452AB85745007078C6 /* UserService.swift in Sources */,
+				764056C92ABA04A600F9BE49 /* ApiResponse.swift in Sources */,
 				765431322AB822FD007078C6 /* AppConfig.swift in Sources */,
 				765431412AB8567C007078C6 /* SignUpView.swift in Sources */,
 				760B8C612AB5E4250060F03B /* ContentView.swift in Sources */,
 				764056BD2AB9B6CD00F9BE49 /* AuthenticationViewModel.swift in Sources */,
+				764056C52AB9D43F00F9BE49 /* UtilGeneral.swift in Sources */,
 				764056BB2AB9B35900F9BE49 /* AuthenticationView.swift in Sources */,
 				765431492AB857BC007078C6 /* SignUpViewModel.swift in Sources */,
 				765431472AB857A4007078C6 /* LogInViewModel.swift in Sources */,
@@ -736,6 +772,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		764056BE2AB9CB7A00F9BE49 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
 		7654312B2AB6F87B007078C6 /* XCRemoteSwiftPackageReference "DotEnv" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/swiftpackages/DotEnv.git";
@@ -745,6 +789,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		764056BF2AB9CB7A00F9BE49 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 764056BE2AB9CB7A00F9BE49 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 760B8C532AB5E4250060F03B /* Project object */;
 }

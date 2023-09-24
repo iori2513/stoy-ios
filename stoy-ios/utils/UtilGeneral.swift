@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+class UtilGeneral {
+    public static func structToStringDictionary<T>(_ instance: T) -> [String: String] {
+        let mirror = Mirror(reflecting: instance)
+        var dictionary: [String: String] = [:]
+
+        for case let (label?, value) in mirror.children {
+            if let stringValue = value as? CustomStringConvertible {
+                dictionary[label] = stringValue.description
+            }
+        }
+
+        return dictionary
+    }
+
+}

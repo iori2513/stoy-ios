@@ -8,10 +8,12 @@
 import Foundation
 
 protocol ApiResponse {
-    var status: ApiResponseStatus { get }
+    associatedtype ResultType
+    var status: ApiResponseStatus { get set }
+    var result: ResultType { get set }
 }
 
-enum ApiResponseStatus {
-    case success
-    case error
+enum ApiResponseStatus: String, Decodable {
+    case success = "success"
+    case error = "error"
 }

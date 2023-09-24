@@ -11,7 +11,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
                      = nil) -> Bool {
-        AppConfig.setupEnv()
         return true
     }
 }
@@ -22,5 +21,9 @@ struct stoy_iosApp: App {
         WindowGroup {
             ContentView()
         }
+    }
+    
+    init() {
+        AppConfig.setupEnv()
     }
 }

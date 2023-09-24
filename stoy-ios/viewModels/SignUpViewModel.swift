@@ -12,4 +12,12 @@ class SignUpViewModel: ObservableObject {
     @Published var email: String = ""
     @Published var username: String = ""
     @Published var password: String = ""
+    
+    func register() async {
+        do {
+            try await UserService.shared.register(params: .init(email: email, username: username, password: password))
+        } catch {
+            print(error)
+        }
+    }
 }
