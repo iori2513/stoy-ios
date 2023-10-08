@@ -8,21 +8,23 @@
 import SwiftUI
 
 struct AuthenticationView: View {
-    
+
     @StateObject private var viewModel = AuthenticationViewModel()
-    
+
     var body: some View {
-        switch viewModel.state {
+        VStack {
+            switch viewModel.state {
             case .logIn:
                 LogInView()
             case .signUp:
                 SignUpView()
+            }
+            Spacer().frame(height: 30)
+            Button(action: { viewModel.changeView() }, label: {
+                Text(viewModel.state.btnText)
+                    .animation(.none)
+            })
         }
-        Spacer().frame(height: 30)
-        Button(action: { viewModel.changeView() }, label: {
-            Text(viewModel.state.btnText)
-                .animation(.none)
-        })
     }
 }
 

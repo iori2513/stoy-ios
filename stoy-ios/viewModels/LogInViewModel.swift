@@ -11,4 +11,14 @@ import SwiftUI
 class LogInViewModel: ObservableObject {
     @Published var email: String = ""
     @Published var password: String = ""
+
+    func login() async {
+        do {
+            GeneralService.shared.showPageLoading()
+            try await UserService.shared.login(params: .init(email: email, password: password))
+            GeneralService.shared.hidePageLoading()
+        } catch {
+            print(error)
+        }
+    }
 }

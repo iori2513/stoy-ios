@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @StateObject private var viewModel = ContentViewModel()
+
     var body: some View {
-        AuthenticationView()
+        ZStack {
+            Group {
+                if viewModel.user == nil {
+                    AuthenticationView()
+                } else {
+                    MainTabView()
+                }
+            }
+            if viewModel.isLoading {
+                LoadingView()
+            }
+        }
     }
 }
 

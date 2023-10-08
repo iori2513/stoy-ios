@@ -10,7 +10,7 @@ import SwiftUI
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-                     = nil) -> Bool {
+                        = nil) -> Bool {
         return true
     }
 }
@@ -22,7 +22,7 @@ struct stoy_iosApp: App {
             ContentView()
         }
     }
-    
+
     init() {
         AppConfig.setupEnv()
     }
