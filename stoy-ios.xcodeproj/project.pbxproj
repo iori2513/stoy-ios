@@ -235,11 +235,7 @@
 		765431342AB82418007078C6 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				764056C12AB9CE2D00F9BE49 /* ApiAuthRegisterParam.swift */,
-				764056C62AB9D5E700F9BE49 /* ApiAuthRegisterResponse.swift */,
-				76D2B2132ACEE12400306E7F /* ApiAuthLoginParam.swift */,
-				76D2B2152ACEEE3600306E7F /* ApiAuthLoginResponse.swift */,
-				76D62CBB2AD3188E001266A1 /* ApiAuthFetchUserResponse.swift */,
+				76D62CCB2AD3DA7E001266A1 /* api */,
 				76D62CBD2AD31979001266A1 /* User.swift */,
 			);
 			path = models;
@@ -290,6 +286,18 @@
 				76D62CBF2AD324BA001266A1 /* AppError.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		76D62CCB2AD3DA7E001266A1 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				76D2B2132ACEE12400306E7F /* ApiAuthLoginParam.swift */,
+				76D2B2152ACEEE3600306E7F /* ApiAuthLoginResponse.swift */,
+				76D62CBB2AD3188E001266A1 /* ApiAuthFetchUserResponse.swift */,
+				764056C62AB9D5E700F9BE49 /* ApiAuthRegisterResponse.swift */,
+				764056C12AB9CE2D00F9BE49 /* ApiAuthRegisterParam.swift */,
+			);
+			path = api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
