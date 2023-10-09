@@ -7,9 +7,8 @@
 
 import Foundation
 
+// UserDefaults関連のもの
 class AppStore {
-    //    public static let shared = AppStore()
-
     public static var token: String {
         get {
             return UserDefaults.standard.string(forKey: "token") ?? ""

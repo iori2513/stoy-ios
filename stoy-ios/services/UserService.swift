@@ -87,4 +87,9 @@ class UserService {
         }
         throw AppError.api(message: "unknown error")
     }
+
+    public func logout() {
+        self.user = nil
+        AppStore.token = ""
+    }
 }

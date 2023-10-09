@@ -41,6 +41,7 @@
 		76D62CC42AD3358B001266A1 /* GeneralService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D62CC32AD3358B001266A1 /* GeneralService.swift */; };
 		76D62CC62AD3375B001266A1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D62CC52AD3375B001266A1 /* LoadingView.swift */; };
 		76D62CC82AD33F8D001266A1 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D62CC72AD33F8D001266A1 /* ContentViewModel.swift */; };
+		76D62CCA2AD3D9B0001266A1 /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D62CC92AD3D9B0001266A1 /* MainTabViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		76D62CC32AD3358B001266A1 /* GeneralService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralService.swift; sourceTree = "<group>"; };
 		76D62CC52AD3375B001266A1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		76D62CC72AD33F8D001266A1 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		76D62CC92AD3D9B0001266A1 /* MainTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		760B8C5D2AB5E4250060F03B /* stoy-ios */ = {
 			isa = PBXGroup;
 			children = (
+				76D62CC12AD329C1001266A1 /* AppStore.swift */,
 				764056CA2ABA060300F9BE49 /* protocols */,
 				764056C32AB9D17300F9BE49 /* utils */,
 				7654314A2AB87A88007078C6 /* extensions */,
@@ -164,7 +167,6 @@
 				760B8C622AB5E4260060F03B /* Assets.xcassets */,
 				760B8C642AB5E4260060F03B /* stoy_ios.entitlements */,
 				760B8C652AB5E4260060F03B /* Preview Content */,
-				76D62CC12AD329C1001266A1 /* AppStore.swift */,
 			);
 			path = "stoy-ios";
 			sourceTree = "<group>";
@@ -250,6 +252,7 @@
 				765431482AB857BC007078C6 /* SignUpViewModel.swift */,
 				764056BC2AB9B6CD00F9BE49 /* AuthenticationViewModel.swift */,
 				76D62CC72AD33F8D001266A1 /* ContentViewModel.swift */,
+				76D62CC92AD3D9B0001266A1 /* MainTabViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				76D62CC82AD33F8D001266A1 /* ContentViewModel.swift in Sources */,
 				764056BD2AB9B6CD00F9BE49 /* AuthenticationViewModel.swift in Sources */,
 				76D2B2142ACEE12400306E7F /* ApiAuthLoginParam.swift in Sources */,
+				76D62CCA2AD3D9B0001266A1 /* MainTabViewModel.swift in Sources */,
 				764056C52AB9D43F00F9BE49 /* UtilGeneral.swift in Sources */,
 				764056BB2AB9B35900F9BE49 /* AuthenticationView.swift in Sources */,
 				76D2B2162ACEEE3600306E7F /* ApiAuthLoginResponse.swift in Sources */,
