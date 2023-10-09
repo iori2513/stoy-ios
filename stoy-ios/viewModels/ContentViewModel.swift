@@ -19,7 +19,7 @@ class ContentViewModel: ObservableObject {
     }
 
     private func setSubscribers() {
-        UserService.shared.$user.sink { [weak self] user in
+        UserService.shared.$user.receive(on: DispatchQueue.main).sink { [weak self] user in
             guard let self = self else { return }
             self.user = user
         }.store(in: &cancellables)
