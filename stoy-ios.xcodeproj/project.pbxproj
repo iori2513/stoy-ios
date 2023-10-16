@@ -31,6 +31,9 @@
 		765431452AB85745007078C6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431442AB85745007078C6 /* UserService.swift */; };
 		765431472AB857A4007078C6 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431462AB857A4007078C6 /* LogInViewModel.swift */; };
 		765431492AB857BC007078C6 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765431482AB857BC007078C6 /* SignUpViewModel.swift */; };
+		76B82E3F2AD8D982003E3B23 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B82E3E2AD8D982003E3B23 /* PostView.swift */; };
+		76B82E412AD8D9A3003E3B23 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B82E402AD8D9A3003E3B23 /* ProfileView.swift */; };
+		76B82E432AD8D9B8003E3B23 /* DietView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B82E422AD8D9B8003E3B23 /* DietView.swift */; };
 		76D2B2142ACEE12400306E7F /* ApiAuthLoginParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2B2132ACEE12400306E7F /* ApiAuthLoginParam.swift */; };
 		76D2B2162ACEEE3600306E7F /* ApiAuthLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2B2152ACEEE3600306E7F /* ApiAuthLoginResponse.swift */; };
 		76D62CBA2AD12B3D001266A1 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 76D62CB92AD12B3D001266A1 /* .swiftlint.yml */; };
@@ -89,6 +92,9 @@
 		765431442AB85745007078C6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		765431462AB857A4007078C6 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
 		765431482AB857BC007078C6 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		76B82E3E2AD8D982003E3B23 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		76B82E402AD8D9A3003E3B23 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		76B82E422AD8D9B8003E3B23 /* DietView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietView.swift; sourceTree = "<group>"; };
 		76D2B2132ACEE12400306E7F /* ApiAuthLoginParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAuthLoginParam.swift; sourceTree = "<group>"; };
 		76D2B2152ACEEE3600306E7F /* ApiAuthLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAuthLoginResponse.swift; sourceTree = "<group>"; };
 		76D62CB92AD12B3D001266A1 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -266,6 +272,9 @@
 			isa = PBXGroup;
 			children = (
 				765431422AB8569A007078C6 /* MainTabView.swift */,
+				76B82E402AD8D9A3003E3B23 /* ProfileView.swift */,
+				76B82E3E2AD8D982003E3B23 /* PostView.swift */,
+				76B82E422AD8D9B8003E3B23 /* DietView.swift */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -463,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				764056C72AB9D5E700F9BE49 /* ApiAuthRegisterResponse.swift in Sources */,
+				76B82E412AD8D9A3003E3B23 /* ProfileView.swift in Sources */,
 				764056C22AB9CE2D00F9BE49 /* ApiAuthRegisterParam.swift in Sources */,
 				765431452AB85745007078C6 /* UserService.swift in Sources */,
 				764056C92ABA04A600F9BE49 /* ApiResponse.swift in Sources */,
@@ -475,6 +485,7 @@
 				76D2B2142ACEE12400306E7F /* ApiAuthLoginParam.swift in Sources */,
 				76D62CCA2AD3D9B0001266A1 /* MainTabViewModel.swift in Sources */,
 				764056C52AB9D43F00F9BE49 /* UtilGeneral.swift in Sources */,
+				76B82E432AD8D9B8003E3B23 /* DietView.swift in Sources */,
 				764056BB2AB9B35900F9BE49 /* AuthenticationView.swift in Sources */,
 				76D2B2162ACEEE3600306E7F /* ApiAuthLoginResponse.swift in Sources */,
 				76D62CC22AD329C1001266A1 /* AppStore.swift in Sources */,
@@ -486,6 +497,7 @@
 				760B8C5F2AB5E4250060F03B /* stoy_iosApp.swift in Sources */,
 				765431432AB8569A007078C6 /* MainTabView.swift in Sources */,
 				76D62CBE2AD31979001266A1 /* User.swift in Sources */,
+				76B82E3F2AD8D982003E3B23 /* PostView.swift in Sources */,
 				76D62CC62AD3375B001266A1 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

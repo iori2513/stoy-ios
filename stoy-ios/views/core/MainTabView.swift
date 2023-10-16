@@ -12,9 +12,23 @@ struct MainTabView: View {
     @StateObject private var viewModel = MainTabViewModel()
 
     var body: some View {
-        Button(action: { viewModel.logout() }, label: {
-            Text("ログアウト")
-        })
+        TabView(selection: $viewModel.tabIndex) {
+            PostView()
+                .tabItem {
+                    Label("投稿", systemImage: "house")
+                }
+                .tag(MainTabViewIndex.post)
+            DietView()
+                .tabItem {
+                    Label("食事", systemImage: "fork.knife")
+                }
+                .tag(MainTabViewIndex.diet)
+            ProfileView()
+                .tabItem {
+                    Label("プロフィール", systemImage: "person")
+                }
+                .tag(MainTabViewIndex.profile)
+        }
     }
 }
 

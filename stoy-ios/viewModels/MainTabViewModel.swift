@@ -8,7 +8,16 @@
 import Foundation
 
 class MainTabViewModel: ObservableObject {
+
+    @Published var tabIndex: MainTabViewIndex = .post
+
     func logout() {
         UserService.shared.logout()
     }
+}
+
+enum MainTabViewIndex: Int {
+    case post = 1
+    case diet = 2
+    case profile = 3
 }
