@@ -20,4 +20,5 @@ enum MainTabViewIndex: Int {
     case post = 1
     case diet = 2
     case profile = 3
+    case data = 4
 }

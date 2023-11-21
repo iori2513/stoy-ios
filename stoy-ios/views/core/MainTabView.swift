@@ -28,6 +28,11 @@ struct MainTabView: View {
                     Label("プロフィール", systemImage: "person")
                 }
                 .tag(MainTabViewIndex.profile)
+            BodyDataView()
+                .tabItem {
+                    Label("体重管理", systemImage: "figure.mixed.cardio")
+                }
+                .tag(MainTabViewIndex.profile)
         }
     }
 }

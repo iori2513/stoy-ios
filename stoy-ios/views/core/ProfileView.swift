@@ -9,7 +9,12 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Text("プロフィール")
+        VStack {
+            Text("プロフィール")
+            Button(action: UserService.shared.logout) {
+                Text("ログアウト")
+            }
+        }
     }
 }
 

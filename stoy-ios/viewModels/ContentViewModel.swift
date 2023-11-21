@@ -19,14 +19,29 @@ class ContentViewModel: ObservableObject {
     }
 
     private func setSubscribers() {
-        UserService.shared.$user.receive(on: DispatchQueue.main).sink { [weak self] user in
+        UserService.shared.$user.sink { [weak self] user in
             guard let self = self else { return }
-            self.user = user
+            DispatchQueue.main.async {
+                self.user = user
+            }
         }.store(in: &cancellables)
 
         GeneralService.shared.$isLoading.sink { [weak self] isLoading in
             guard let self = self else { return }
             self.isLoading = isLoading
+        }.store(in: &cancellables)
+
+        self.$user.sink { user in
+            guard let user = user else { return }
+            Task {
+                do {
+                    try await BodyDataService.shared.fetchData(token: AppStore.token)
+                    print("成功")
+                    print(BodyDataService.shared.bodyDataList)
+                } catch {
+                    print(error)
+                }
+            }
         }.store(in: &cancellables)
     }
 }

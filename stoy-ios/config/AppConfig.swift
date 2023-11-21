@@ -10,7 +10,7 @@ import Foundation
 class AppConfig {
     private static let env = ProcessInfo.processInfo.environment
 
-    public static let apiBaseUrl: String = env["API_BASE_URL"] ?? ""
+    public static let apiBaseUrl: String = env["API_BASE_URL_DEV"] ?? ""
 
     public static func setupEnv() {
         guard let path = Bundle.main.path(forResource: ".env", ofType: nil) else {

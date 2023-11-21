@@ -75,7 +75,6 @@ class UserService {
         let headers: HTTPHeaders = [.authorization(bearerToken: token)]
         let url = AppConfig.apiBaseUrl + "/auth/user"
         let response = await AF.request(url, method: .get, headers: headers).serializingDecodable(ApiAuthFetchUserResponse.self).response
-        print(response)
         switch response.result {
         case .success(let data):
             if data.status == .success {

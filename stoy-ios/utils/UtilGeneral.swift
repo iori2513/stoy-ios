@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 class UtilGeneral {
     public static func structToStringDictionary<T>(_ instance: T) -> [String: String] {
@@ -20,5 +21,4 @@ class UtilGeneral {
 
         return dictionary
     }
-
 }
